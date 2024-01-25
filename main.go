@@ -12,8 +12,8 @@ import (
 func main() {
 	if len(os.Args) < 3 {
 		log.Println("Chamada do comando incorreta!")
-		log.Println("Padrão da chamada deve ser => ./xpto `nome_do_arquivo` `'lista_tamanh_coluna'`")
-		log.Println("Exemplo de chamada: ./xpto ARQUIVO_XPTO.txt '3, 3, 4, 1, 3'")
+		log.Println("Padrão da chamada deve ser => ./xpto `nome_do_arquivo` `lista_tamanho_coluna`")
+		log.Println("Exemplo: ./xpto ARQUIVO_XPTO.txt '3, 3, 4, 1, 3'")
 		os.Exit(1)
 	}
 
